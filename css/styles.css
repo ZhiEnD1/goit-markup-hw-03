@@ -31,6 +31,12 @@ body {
   padding: 0px;
 }
 
+.portfolio-title,
+.subtext {
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .link {
   color: var(--primary-text-color);
@@ -48,6 +54,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.footer .logo {
+  padding: 0px;
 }
 
 .logo .one-part {
@@ -133,6 +143,14 @@ border-radius: 0px 0px 4px 4px;
   padding-top: 20px;
 }
 
+.team-container .text-container .subtext {
+  padding-top: 10px;
+}
+
+.portfolio-nav .text-container .subtext {
+  padding-top: 4px;
+}
+
 .work {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -151,6 +169,7 @@ border-radius: 0px 0px 4px 4px;
 
 .team {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-container .item:not(:last-child) {
@@ -184,6 +203,11 @@ border-radius: 0px 0px 4px 4px;
   margin-left: 50px;
 }
 
+.auth-nav .contacts {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .auth-nav .link {
   display: block;
   padding-top: 40px;
@@ -212,6 +236,7 @@ border-radius: 0px 0px 4px 4px;
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
+  border: 0px;
 
   box-shadow: 
     rgba(0, 0, 0, 0.1), 
@@ -289,7 +314,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .portfolio-title {
-  margin-bottom: 10px;
   color: var(--primary-text-color);
   font-weight: 700;
   line-height: 1.14;
